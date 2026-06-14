@@ -34,7 +34,7 @@ diretamente no catalogo SQLite.
 - [Organizacao do codigo](#organizacao-do-codigo)
 - [Documentacao adicional](#documentacao-adicional)
 
-## Comeco rapido
+## Começo rápido
 
 Requisitos:
 
@@ -72,7 +72,7 @@ Execute a suite de testes:
 pytest
 ```
 
-## Configuracao
+## Configuração
 
 As fontes de RI ficam em `config/sources.json`. Cada entrada define a empresa,
 a pagina monitorada e as regras basicas para aceitar links de PDF.
@@ -194,7 +194,7 @@ Metricas canonicas atualmente tratadas:
 - `repasses`
 - `distratos`
 
-## Validacao com dados reais
+## Validação com dados reais
 
 O diretorio `data/fixtures/real_pdfs` contem PDFs reais usados para validar
 comportamentos importantes do pipeline.
@@ -206,7 +206,7 @@ Arquivos principais:
 - `direcional_previa_1t26.pdf`: PDF com conteudo tabular.
 - `validation_output.json`: saida consolidada da validacao.
 
-Para executar a validacao:
+Para executar a validação:
 
 ```bash
 python scripts/run_real_fixture_validation.py
@@ -257,9 +257,3 @@ Modulos principais:
 - `services/contract.py`: catalogo e normalizacao.
 - `services/validation.py`: validacoes semanticas.
 
-## Documentacao adicional
-
-- [Arquitetura detalhada](docs/architecture.md)
-- [Operacao e runbook](docs/operations.md)
-- [Matriz de avaliacao](docs/evaluation_matrix.md)
-- [Relatorio de validacao](docs/validation_report.md)
