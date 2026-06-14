@@ -1,0 +1,38 @@
+[
+  {
+    "company": "MRV",
+    "document_title": "Prévia Operacional 1T26",
+    "pdf_url": "https://api.mziq.com/mzfilemanager/v2/d/4b56353d-d5d9-435f-bf63-dcbf0a6c25d5/9d9c8de1-c30a-0260-a69f-5c1c06219644?origin=2",
+    "parser_strategy": "hybrid",
+    "extraction_strategy": "full_scan",
+    "reference_year": 2026,
+    "reference_quarter": 1,
+    "metrics": {
+      "lancamentos": 2915.0,
+      "vendas_liquidas": 2469.0,
+      "unidades": 9747.0,
+      "vso": 21.5
+    },
+    "warnings": [
+      "PDF com baixo volume textual; OCR/multimodal recomendado.",
+      "OCR fallback aplicado nas paginas com baixo texto."
+    ]
+  },
+  {
+    "company": "Direcional",
+    "document_title": "Prévia Operacional 1T26",
+    "pdf_url": "https://api.mziq.com/mzfilemanager/v2/d/ada9bc2c-f7d0-4359-9eaf-851b679ab788/b9e3e792-da8b-5e49-f50f-4c097cf08623?origin=2",
+    "parser_strategy": "text",
+    "extraction_strategy": "full_scan",
+    "reference_year": 2026,
+    "reference_quarter": 1,
+    "metrics": {
+      "lancamentos": 1005.8,
+      "vendas_liquidas": 1582.0,
+      "vso": 24.0,
+      "unidades": 4848.0,
+      "estoque": 5178.0
+    },
+    "warnings": []
+  }
+]

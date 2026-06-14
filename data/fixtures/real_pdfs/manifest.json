@@ -1,0 +1,36 @@
+[
+  {
+    "company": "MRV",
+    "document_title": "Prévia Operacional 1T26",
+    "results_page_url": "https://ri.mrv.com.br/informacoes-financeiras/central-de-resultados/",
+    "pdf_url": "https://api.mziq.com/mzfilemanager/v2/d/4b56353d-d5d9-435f-bf63-dcbf0a6c25d5/9d9c8de1-c30a-0260-a69f-5c1c06219644?origin=2",
+    "local_path": "data/fixtures/real_pdfs/mrv_previa_1t26.pdf",
+    "layout_type": "slides",
+    "reference_year": 2026,
+    "reference_quarter": 1,
+    "expected_metrics": {
+      "lancamentos": 2915.0,
+      "vendas_liquidas": 2469.0,
+      "unidades": 9747.0,
+      "vso": 21.5
+    },
+    "notes": "PDF real de RI validado com OCR fallback e extração de métricas operacionais do quadro em slides."
+  },
+  {
+    "company": "Direcional",
+    "document_title": "Prévia Operacional 1T26",
+    "results_page_url": "https://ri.direcional.com.br/informacoes-financeiras/central-de-resultados/",
+    "pdf_url": "https://api.mziq.com/mzfilemanager/v2/d/ada9bc2c-f7d0-4359-9eaf-851b679ab788/b9e3e792-da8b-5e49-f50f-4c097cf08623?origin=2",
+    "local_path": "data/fixtures/real_pdfs/direcional_previa_1t26.pdf",
+    "layout_type": "tabela",
+    "reference_year": 2026,
+    "reference_quarter": 1,
+    "expected_metrics": {
+      "lancamentos": 1005.8,
+      "vendas_liquidas": 1582.0,
+      "vso": 24.0,
+      "estoque": 5178.0,
+      "unidades": 4848.0
+    }
+  }
+]

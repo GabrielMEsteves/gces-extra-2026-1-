@@ -1,0 +1,12 @@
+.env
+.pytest_tmp/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+pytest-cache-files-*/
+data/uda.db
+data/storage/
+src/*.egg-info/
+src/**/*.egg-info/
